@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+:root {
+    --color: #b6895b ;
+    --bg: #101010 ;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+body {
+    background-color: var(--bg);
+}
+
+.header-grup{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    position: absolute;
+    text-align: center;
+}
+
+header ul {
+    float: center;
+}
+
+header ul li {
+    display: inline-block;
+    min-height: 10;
+   
+}
+
+header ul li a {
+    font-size: 18px;
+    color: #FFF;
+    margin: 13 20 ;
+    padding: 15px 30px 9px 30px;
+    display: inline-block;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+
+header ul li a:hover {
+    color: var(--color);
+    transition: 1.0;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    transition:.3s;
+    
+}
+
+/* section */
+section{
+    padding: 20px 170px;
+}
+
+.banner {
+    width: 100%;
+    min-height: 61.2rem;
+    background-image: url(fazri1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 3.4rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.banner-text p {
+    font-size: 0.934rem;
+    color: white;
+    margin: 0.5rem 0 1.4rem;
+}
+
+/* section background selesai */
+
